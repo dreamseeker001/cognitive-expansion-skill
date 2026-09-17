@@ -1,0 +1,6 @@
+interface:
+  display_name: "认知拓展"
+  short_description: "在日常中文对话中发现重要盲点、挑战隐含假设并找到可验证的下一步"
+  default_prompt: "使用 $cognitive-expansion-zh 检查我的问题框架，指出可能改变判断的盲点，并给出可验证的下一步。"
+policy:
+  allow_implicit_invocation: true
